@@ -4,7 +4,7 @@ Lab 0 - Create Logging Service
 In Eclipse, create a new maven project. Give it appropriate GAV coordinates.
 Modify the pom.xml to include the JAX-RS dependencies
 
-'''
+```
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -36,18 +36,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         </dependency>
     </dependencies>
 </project>
-'''
+```
 
 Add two classes, the JAX-RS Application 
-'''
+```
 @ApplicationPath("services")
 public class LoggingApplication extends Application{
 
 }
-'''
+```
 
 And the JAX-RS resource
-'''
+```
 @Path("log")
 public class LoggingService {
         
@@ -58,7 +58,7 @@ public class LoggingService {
         LOG.info(message);
     }
 }
-'''
+```
 
 
 Deploy the service to the BPMS server and test with your favorite REST client.
@@ -70,7 +70,7 @@ Lab 1 - Create Sample Project
 
 In Eclipse, create a new jbpm (maven) project.
 Adjust the pom.xml to take advantage of the BPMS BOM.
-'''
+```
 <dependencyManagement>
     <dependencies>
         <dependency>
@@ -82,10 +82,10 @@ Adjust the pom.xml to take advantage of the BPMS BOM.
         </dependency>
     </dependencies>
 </dependencyManagement>
-'''
+```
 
 Add the kie-maven-plugin configuration, and change the packaging to kjar
-'''
+```
 <build>
     <plugins>
         <plugin>
@@ -96,7 +96,7 @@ Add the kie-maven-plugin configuration, and change the packaging to kjar
         </plugin>
     </plugins>
 </build>
-'''
+```
 
 If you like, before we move on, test the sample process with the ProcessMain class.
 You can also create a JUnit test to perform the same logic as the ProcessMain class.
