@@ -107,4 +107,18 @@ Edit the kmodule to point to an appropriate package.
 
 Lab 2 - Create the Process Diagram
 ==================================
+Draw the process diagram to match below
+![Diagram](diagram.png)
+
+
+
+Lab 3 - Create Custom Work Item Handler
+=======================================
+
+Lab 4 - Deploy the Process to the Execution Server
+==================================================
+
+Lab 5 - Invoke the Process and Task Items Remotely
+==================================================
+
 
