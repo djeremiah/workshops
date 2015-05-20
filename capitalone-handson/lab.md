@@ -120,5 +120,6 @@ Lab 4 - Deploy the Process to the Execution Server
 
 Lab 5 - Invoke the Process and Task Items Remotely
 ==================================================
+See [Exec Server Example](https://github.com/djeremiah/bpms-exec-server-example)
 
 
