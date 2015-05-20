@@ -111,12 +111,13 @@ Draw the process diagram to match below
 ![Diagram](diagram.png)
 
 
-
 Lab 3 - Create Custom Work Item Handler
 =======================================
+Extend AbstractLogOrThrowWorkItemHandler
 
 Lab 4 - Deploy the Process to the Execution Server
 ==================================================
+See [Exec Server Example](https://github.com/djeremiah/bpms-exec-server-example)
 
 Lab 5 - Invoke the Process and Task Items Remotely
 ==================================================
